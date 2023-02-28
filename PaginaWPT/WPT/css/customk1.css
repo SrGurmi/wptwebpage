@@ -1,0 +1,84 @@
+.d-mosaic-news-more.d-mosaic-news-more .b-btn {
+    margin-bottom: 40px;
+}
+.d-hero:before {
+    pointer-events: none;
+}
+
+.d-hero-bottom + .d-mosaic-news-interior.d-mosaic-news .b-mosaic {
+
+}
+
+.d-hero-bottom + .d-banner .img-div {
+    margin-top: -100px;
+}
+
+
+/*  MARCADOR */
+.b-marcador.b-title-top {
+    margin-top: -110px;
+}
+.b-marcador.b-title-top .title {
+    text-transform: none;
+}
+.b-marcador.b-info {
+    padding-top: 35px;
+}
+.b-marcador.b-info .b-text-top p {
+    font-size: 20px;
+    line-height: 20px;
+}
+.d-banner a picture img {
+    transform: scale(1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3	s ease-in-out;
+}
+.d-banner a:hover picture img {
+    transform: scale(1.02);
+}
+
+.d-mosaic-news-interior.d-mosaic-news + .d-mosaic-news-interior.d-mosaic-news {
+    padding-top: 0;
+}
+.d-menu-tournament .b-links ul .b-link.disabled {
+    opacity: 0.3;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(2) {
+        transition-delay: 0.05s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(3) {
+        transition-delay: 0.1s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(4) {
+        transition-delay: 0.15s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(5) {
+        transition-delay: 0.2s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(6) {
+        transition-delay: 0.25s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(7) {
+        transition-delay: 0.3s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(8) {
+        transition-delay: 0.35s;
+    }
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide:nth-child(9) {
+        transition-delay: 0.4s;
+    }
+
+    .d-calendar .b-slider.aos-animate .swiper-wrapper .swiper-slide {
+        opacity: 1;
+        transform: translateX(0);
+        transition-duration: 0.4s;
+    }
+}
